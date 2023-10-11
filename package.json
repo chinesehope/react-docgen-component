@@ -1,0 +1,26 @@
+{
+  "name": "react-docgen-component",
+  "version": "1.0.2",
+  "description": "自动生成react组件的api文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "jsdoc",
+    "docgen",
+    "react",
+    "component",
+    "readme"
+  ],
+  "author": "chinesehope",
+  "license": "ISC",
+  "bin": {
+    "docgen": "index.js"
+  },
+  "dependencies": {
+    "find-up": "^6.3.0",
+    "react-docgen-typescript": "^2.2.2"
+  }
+}
